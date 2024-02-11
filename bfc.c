@@ -41,8 +41,8 @@ int main(int argc, char* argv[]){
 
     bool do_incr;
     bool do_shift;
-    int incr_acc = false; // stores the sum of a succession of + and - (for optimisation)
-    int shift_acc = false; // same with < and >
+    int incr_acc = 0; // stores the sum of a succession of + and - (for optimisation)
+    int shift_acc = 0; // same with < and >
 
     bool do_write = false;
     bool do_read = false;
